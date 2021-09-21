@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    font-family: 'Oswald', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body{
+    box-shadow left:
+}
+header{
+    background-color:#BCB8B1;
+    color: #000;
+    height: 4.375em;
+    text-align: end;
+    position: fixed;
+    width: 100%;
+}
+li{
+    text-transform: uppercase;
+    display: inline;
+    padding: 0.9375em;
+    font-size: large;
+}
+ul{
+    padding-top: 0.9375em;
+    padding:1.25em;
+}
+/**primer section**/
+.primera{
+    background-color: #F4F3EE;
+    display: flex;
+    justify-content: center;
+    padding: 3.125em;
+    /**width: 100%;***/
+}
+
+.presentacion{
+    padding:2.5em;
+    width: 31.25em;
+    margin-top: 3.125em;
+}
+.hola{
+    font-weight:bold;
+    font-size: 2.5em;
+}
+.mel{
+    font-weight: bolder;
+    font-size: 4.375em;
+    color: #E0AFA0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.p{
+    font-size: 1.5625em;
+}
+.boton{
+    text-transform: uppercase;
+    background-color: #E0AFA0;
+    border-radius: 1.25em;
+    padding: 0.9375em 3.75em;
+    text-align: center;
+}
+.boton:hover{
+    background-color: #F0D8D1;
+}
+.imagen-1{
+    display: flex;
+    width: 31.25em;
+    padding: 1.25em;
+}
+.buttom{
+    text-transform: uppercase;
+    background-color: #E0AFA0;
+    border-radius: 1.25em;
+    padding: 0.625em 1.25em;    ;
+    text-align: center;
+}
+.buttom:hover{
+    background-color: #F0D8D1;
+}
+/*fin primer section**/
+
+
+/**segunda section**/
+.segunda{
+    background-color: #8A817C;
+    padding: 6.25em;
+    text-align: center;
+    font-size: 1.25em;
+}
+.icon-conocimientos{
+    background-color: white;
+    width: 11.25em;
+    padding: 0.9375em;
+    margin: 0.9375em;
+    border-radius: 0.625em;
+    align-items: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+.grilla{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3.125em;
+    justify-content: center;
+    align-items: center;
+}
+/**fin segunda section**/
+.titulos{
+    text-align: center;
+    font-size: 3.125em;
+}
+/**tercer section**/
+.tercera{
+    background-color: #E0AFA0;
+    padding: 3.125em;
+    text-align: center;
+    font-size: 2.5em;
+    align-items: center;
+    font-style: italic;
+}
+/**fin tercer section**/
+
+/**cuarta section**/
+.cuarta{
+    background-color: #BCB8B1;
+    padding: 3.125em;
+    text-align: center;
+    font-size: 1.25em;
+}
+.grilla-proyecto{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.25em;
+    justify-content: space-between;
+    
+}
+.icon-proyect{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/**fin cuarta section**/

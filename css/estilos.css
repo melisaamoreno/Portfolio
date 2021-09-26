@@ -9,9 +9,6 @@ a{
     text-decoration: none;
     color: #000;
 }
-body{
-    box-shadow left:
-}
 header{
     background-color:#BCB8B1;
     color: #000;
@@ -30,19 +27,20 @@ ul{
     padding-top: 0.9375em;
     padding:1.25em;
 }
+
 /**primer section**/
 .primera{
     background-color: #F4F3EE;
     display: flex;
     justify-content: center;
     padding: 3.125em;
-    /**width: 100%;***/
 }
 
 .presentacion{
-    padding:2.5em;
-    width: 31.25em;
-    margin-top: 3.125em;
+    padding:1.875em;
+    width: 40%;
+    margin-top: 2.5em;
+    align-self: center;
 }
 .hola{
     font-weight:bold;
@@ -69,8 +67,12 @@ ul{
 }
 .imagen-1{
     display: flex;
-    width: 31.25em;
-    padding: 1.25em;
+    width: 40%;
+    margin-top: 1.875em;
+    padding: 1.875em;
+}
+.imagen-1 img{
+    width: 100%;
 }
 .buttom{
     text-transform: uppercase;
@@ -92,24 +94,31 @@ ul{
     text-align: center;
     font-size: 1.25em;
 }
-.icon-conocimientos{
-    background-color: white;
-    width: 11.25em;
-    padding: 0.9375em;
-    margin: 0.9375em;
-    border-radius: 0.625em;
-    align-items: center;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-}
 .grilla{
     display: flex;
     flex-wrap: wrap;
     margin: 3.125em;
     justify-content: center;
     align-items: center;
+   /* width: 100%;*/
 }
+.icon-conocimientos{
+    background-color: white;
+    width: 13.75em;
+    padding: 0.9375em;
+    margin: 0.625em;
+    border-radius: 0.625em;
+    border: 1px solid black;
+    align-items: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+.icon-conocimientos img{
+    width: 50%;
+    margin: 0.625em;
+}
+
 /**fin segunda section**/
 .titulos{
     text-align: center;
@@ -129,26 +138,76 @@ ul{
 /**cuarta section**/
 .cuarta{
     background-color: #BCB8B1;
-    padding: 3.125em;
+    padding: 6.25em;
     text-align: center;
     font-size: 1.25em;
 }
 .grilla-proyecto{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 1.25em;
-    justify-content: space-between;
-    
 }
 .icon-proyect{
     background-color: white;
-    width: 250px;
-    height: 250px;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
+    width: 16.25em;
+    padding: 1.25em;
+    margin: 0.9375em;
+    border-radius: 0.625em;
+    align-items: center;
+    font-weight: bold;
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+.icon-proyect img{
+    width: 90%;
+    margin:0.625em;
 }
 /**fin cuarta section**/
+
+/**Inicio Contacto**/
+.form-contact{
+    background-color: #E0AFA0;
+    border: #BCB8B1 1px solid;
+    border-radius: 0.3125em;
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    align-content: center;
+    margin: 3.125em;
+    
+    
+}
+.form-contact h1{
+    font-size: 2.8125em;
+}
+.contactme{
+    width: 45%;
+    margin: 1.5625em;
+    padding: 1.5625em;
+}
+.contactme p{
+    margin-top: 15px;
+    font-size: 1.3em;
+}
+.writeme{
+    width: 45%;
+    margin: 1.5625em;
+    padding: 1.5625em;
+    font-weight: bold;
+}
+.writeme p{
+    font-size: 1.3em;
+}
+
+/*** Fin Contacto - formulario ***/
+
+/*** Footer ***/
+footer{
+    background-color:#8A817C;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}

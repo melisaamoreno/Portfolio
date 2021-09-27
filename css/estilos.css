@@ -22,6 +22,10 @@ li{
     display: inline;
     padding: 0.9375em;
     font-size: large;
+    margin: 0.625em;
+}
+li:hover{
+    color:white;
 }
 ul{
     padding-top: 0.9375em;
@@ -114,6 +118,10 @@ ul{
     display: flex;
     flex-direction: column;
 }
+.icon-conocimientos:hover{
+    border: 3px solid #e79981;
+    color:#e79981;
+}
 .icon-conocimientos img{
     width: 50%;
     margin: 0.625em;
@@ -146,7 +154,7 @@ ul{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin: 1.25em;
+    margin: 1.875em;
 }
 .icon-proyect{
     background-color: white;
@@ -159,6 +167,10 @@ ul{
     border: 1px solid black;
     display: flex;
     flex-direction: column;
+}
+.icon-proyect:hover{
+    border: 3px solid #e79981;
+    color:#e79981;
 }
 .icon-proyect img{
     width: 90%;
@@ -183,13 +195,16 @@ ul{
     font-size: 2.8125em;
 }
 .contactme{
-    width: 45%;
+    width: 50%;
     margin: 1.5625em;
-    padding: 1.5625em;
+    padding: 1.25em;
 }
 .contactme p{
     margin-top: 15px;
     font-size: 1.3em;
+}
+.contactme a:hover{
+    color: white;
 }
 .writeme{
     width: 45%;
@@ -200,14 +215,29 @@ ul{
 .writeme p{
     font-size: 1.3em;
 }
+.fab, .far{
+    font-size: 1em;
+    margin: 0.3125em;
+}
 
+.fab:hover, .far:hover{
+    width: 2.1875em;
+    height: 2.1875em;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 1.1875em;
+    color: black;
+    line-height: 2.1875em;
+    margin-right: 0.625em;
+    text-align: center;
+    display: inline-block;
+    
+}
 /*** Fin Contacto - formulario ***/
 
 /*** Footer ***/
 footer{
     background-color:#8A817C;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     padding: 30px;
 }

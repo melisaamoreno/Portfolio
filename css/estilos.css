@@ -216,22 +216,27 @@ ul{
     font-size: 1.3em;
 }
 .fab, .far{
-    font-size: 1em;
+    font-size: 0.75em;
     margin: 0.3125em;
 }
 
 .fab:hover, .far:hover{
-    width: 2.1875em;
-    height: 2.1875em;
+    width: 2em;
+    height: 2em;
     background-color: #fff;
     border-radius: 50%;
-    font-size: 1.1875em;
+    font-size: 0.75em;
     color: black;
     line-height: 2.1875em;
-    margin-right: 0.625em;
+    margin-right: 0.525em;
     text-align: center;
-    display: inline-block;
-    
+    display: inline-block; 
+}
+.btn{
+    background-color: white;
+    color: black;
+    padding: 0.3125em 1.875em;
+    border: none;
 }
 /*** Fin Contacto - formulario ***/
 
@@ -239,5 +244,34 @@ ul{
 footer{
     background-color:#8A817C;
     text-align: center;
-    padding: 30px;
+    padding: 1.875em;
+}
+.icons ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.icons li{
+    margin: 0.9375em;
+    margin-top: -0.9375em;
+}
+.icons i{
+    width: 2em;
+    height: 2em;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: black;
+    line-height: 2.0875em;
+    text-align: center;
+    margin: -0.125em;
+}
+.icons i:hover{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: black 1px solid;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: transparent;
 }

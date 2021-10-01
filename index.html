@@ -17,10 +17,10 @@
     <header>
         <nav>
             <ul>
-                <li>hola</li>
-                <li>conocimientos</li>
-                <li>proyectos</li>
-                <li class="buttom">contacto</li>
+                <li> <a href="#hola">Hola</li></a>
+                <li> <a href="#conocimientos">conocimientos</li></a>
+                <li><a href="#proyectos">proyectos</li></a>
+                <li class="buttom"><a href="#contacto">contacto</li></a>
             </ul>
         </nav>
     </header>
@@ -28,7 +28,7 @@
 
     <main> <!--comienzo del main-->
         <!--Primer section-->
-        <section id="Hola" class="primera">
+        <section id="hola" class="primera">
             <div class="presentacion">
                  <h1 class="hola">¡Hola! Soy</h1> 
             <p class="mel">Melisa Moreno</p>
@@ -44,7 +44,7 @@
 
     <!--Inicio segundo section-->
 
-    <section class="segunda">
+    <section class="segunda" id="conocimientos">
         <div class="main-content">
         <h1 class="titulos">Mis Conocimientos</h1>
         <p>Esto es un poco de lo que aprendí en el curso de Ada</p>
@@ -86,7 +86,7 @@
     <!--Fin tercer section-->
 
     <!--Inicio cuarto section-->
-        <section class="cuarta">
+        <section class="cuarta" id="proyectos">
         <div class="main-content">
         <h1 class="titulos">Mis proyectos</h1>
         <p>Estos son los proyectos que hicimos en el curso de Ada</p>
@@ -125,9 +125,9 @@
     <!--Fin cuarta section-->
 
     <!--Inicio Contacto-->
-    <section class="contactme">
+    <section class="contactme" id="contacto">
         <div class="form-contact">
-        <div class="contactme">
+        <div class="contactame">
         <h1>Contactame</h1>
         <p>Podes contactarme através de mis redes sociales</p>
         
@@ -145,9 +145,9 @@
             <label>Nombre: *</label>
             <input type="text" name="name" size="50" maxlength="30" placeholder="Nombre">
             <label>Apellido: *</label>
-            <input type="text" name="name" size="50" maxlength="30" placeholder="Apellido">
+            <input type="text" name="surname" size="50" maxlength="30" placeholder="Apellido">
             <label>Email: *</label>
-            <input type="text" name="name" size="50" maxlength="30" placeholder="Email">
+            <input type="text" name="email" size="50" maxlength="30" placeholder="Email">
             <label>Mensaje: *</label>
             <textarea name="comments" cols="50" rows="10"placeholder="Mensaje"></textarea>
             <button type="submit" class="buttom btn"> <strong>Enviar</strong></button>
@@ -158,20 +158,23 @@
 </main> <!--Fin del Main-->
 <footer>
     <ul class="menu">
-        <li>Hola</li>
-        <li>conocimientos</li>
-        <li>proyectos</li>
-        <li>contacto</li>
+        <li><a href="#hola">Hola</li></a>
+        <li><a href="#conocimientos">conocimientos</li></a>
+        <li><a href="#proyectos">proyectos</li></a>
+        <li><a href="#contacto">contacto</li></a>
     </ul>
 <div class="icons">
     <ul>
-    <li><p><i class="fab fa-instagram icons"></i> <a href="https://www.instagram.com/meelosa/" target="_blank"></a></p></li>
-    <li><p><i class="fab fa-github icons"></i><a href="https://github.com/melisaamoreno" target="_blank"></a></p></li>
-    <li><p><i class="fab fa-linkedin-in icons"></i><a href="https://www.linkedin.com/in/melisaamoreno/" target="_blank"></a></p></li>
-    <li><p><i class="far fa-envelope icons"></i><a href="mailto:melisaamoreno@gmail.com"></a></p></li>
+    <li> <a href="https://www.instagram.com/meelosa/" target="_blank"><i class="fab fa-instagram icons"></i></a></li>
+
+    <li><a href="https://github.com/melisaamoreno" target="_blank"><i class="fab fa-github icons"></i></a></li>
+
+    <li><a href="https://www.linkedin.com/in/melisaamoreno/" target="_blank"><i class="fab fa-linkedin-in icons"></i></a></li>
+
+    <li><a href="mailto:melisaamoreno@gmail.com"><i class="far fa-envelope icons"></i></a></li>
 </ul>
 </div>
-    <p>Hecho con &#128151; por Mel</p>
+    <p class="madeby">Hecho con &#128151; por Mel</p>
 </footer> <!--fin del footer-->
     </body>
 </html>

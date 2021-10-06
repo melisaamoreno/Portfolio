@@ -143,17 +143,22 @@
         <h1>Escribime</h1>
        
         <form> 
+        <div class="name">
+            <div>
             <label>Nombre: *</label>
-            <input type="text" name="name" size="50" maxlength="30" required="required" placeholder="p. ej.: Ada">
-
+            <input type="text" name="name" size="30" maxlength="30" required="required" placeholder="p. ej.: Ada"></div>
+        <div>
             <label>Apellido: *</label>
-            <input type="text" name="surname" size="50" maxlength="30"required="required" placeholder="p. ej.: Lovelace">
-
+            <input type="text" name="surname" size="30" maxlength="30"required="required" placeholder="p. ej.: Lovelace"></div>
+        </div>
+        <div class="email">
             <label>Email: *</label>
-            <input type="text" name="email" size="50" maxlength="30" required="required" placeholder="p. ej.: adalovelace@gmail.com">
-
+            <input type="text" name="email" size="65" maxlength="30" required="required" placeholder="p. ej.: adalovelace@gmail.com">
+        </div>
+        <div class="message">
             <label>Mensaje: *</label>
-            <textarea name="comments" cols="50" rows="10" required="required" placeholder="Escriba un mensaje aquí"></textarea>
+            <textarea name="comments" cols="65" rows="10" required="required" placeholder="Escriba un mensaje aquí"></textarea>
+        </div>
 
             <button type="submit" class="buttom btn"> <strong>Enviar</strong></button>
         </form>

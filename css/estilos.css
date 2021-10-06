@@ -224,7 +224,7 @@ ul{
     color: white;
 }
 .writeme{
-    width: 35%;
+    width: 45%;
     margin: 1.5625em;
     padding: 1.5625em;
     font-weight: bold;
@@ -242,6 +242,19 @@ input{
     margin: 0.3125em;
     display: block;
 }
+.name{
+    display: flex;
+    width: 250px;
+   /* position: relative;*/
+}
+/*.surname{
+    width: 200px;
+    display: flex;
+    display:block;
+    position: relative;
+    left: 60px;
+}*/
+
 ::placeholder{
     padding: 15px;
 }

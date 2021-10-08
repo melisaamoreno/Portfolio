@@ -433,7 +433,7 @@ footer{
     }
  
 }
-@media (min-width: 600px){
+@media (max-width: 600px){
     .primera .boton{
         width: 15px;
         padding: 15px;
@@ -442,28 +442,42 @@ footer{
         visibility: hidden;
     }
 }
-/*@media (min-width: 500px){
+
+@media (max-width: 425px){
     .primera{
+        width: 100%;
+        font-size: 12px;
         margin: 0px;
-        padding:0px;
+        padding: 0px;
     }
     .primera .boton{
-        width: 15px;
-        padding: 10px;
+        width: 10px;
+        padding: 5px 10px;
     }
-    .cuarta .grilla-proyecto{
+    .segunda{
+        max-width: 100%;
+        font-size: 12px;
+    }
+    .cuarta{
+        font-size: 12px;
+    }
+    .writeme .name{
+        display: flex;
         flex-direction: column;
-        padding:0px;
-        margin: 0px;
-
     }
-    .grilla-proyecto .icon-proyect{
-        width: 80%;
+    .writeme .surname{
+        display: flex;
+        flex-direction: column;
     }
-    .writeme{
-        width: 80%;
-        justify-content: center;
-        
+    .writeme .email{
+        display: flex;
+        flex-direction: column;
     }
-
-}*/
+    .message{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .menu{
+        visibility: hidden;
+    }
+}

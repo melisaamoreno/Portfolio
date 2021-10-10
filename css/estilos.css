@@ -478,9 +478,13 @@ footer{
         margin: 0px;
         padding: 23px;
     }
+    .primera .presentacion h1 , p{
+        margin-left: -50px;
+    }
     .primera .boton{
         width: 0.625em;
         padding: 0.3125em 0.625em;
+        margin-left: -50px;
     }
     .segunda{
         max-width: 100%;
@@ -488,6 +492,10 @@ footer{
     }
     .tercera{
        max-width: 100% ;
+    }
+    .tercera{
+        font-size: 20px;
+        text-align:right;
     }
     .cuarta{
         font-size: 0.75em;

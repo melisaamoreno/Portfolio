@@ -475,17 +475,26 @@ footer{
     .primera{
         width: 100%;
         font-size: 12px;
+        margin: 0px;
+        padding: 23px;
     }
     .primera .boton{
         width: 0.625em;
         padding: 0.3125em 0.625em;
     }
     .segunda{
-        max-width: 100%;
+        width: 100%;
         font-size: 0.75em;
+    }
+    .tercera{
+       width: 52% ;
     }
     .cuarta{
         font-size: 0.75em;
+        width: 100%;
+    }
+    .contactme{
+        width: 92%;
     }
     .writeme .name{
         display: flex;
@@ -502,6 +511,9 @@ footer{
     .message{
         display: flex;
         flex-direction: column;
+    }
+    footer{
+        width: 97%;
     }
     footer .menu{
         visibility: hidden;

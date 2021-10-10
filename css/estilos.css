@@ -365,7 +365,7 @@ footer{
 @media (max-width: 900px){
     .segunda{
         display: flex;
-        margin: 0px;
+   
         padding: 1.875em;
     }
     .icon-conocimientos{
@@ -373,7 +373,6 @@ footer{
     }
     .cuarta{
         display: flex;
-        margin: 0px;
         padding: 1.875em;
     }
     .grilla-proyecto{
@@ -446,13 +445,36 @@ footer{
         visibility: hidden;
     }
 }
-
+@media (max-width:510px){
+    .primera .boton{
+        width: 0.9375em;
+        padding: 0.7375em;
+    }
+    footer .menu{
+        visibility: hidden;
+    }
+    .segunda .grilla{
+        flex-direction: column;
+    }
+    .icon-conocimientos{
+        width: 80%;
+    }
+    .cuarta .grilla-proyecto{
+        flex-direction: column;
+        margin-left: 15px;
+    }
+        .icon-proyect{
+        width: 70%;
+    }
+    form .namer{
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media (max-width: 425px){
     .primera{
         width: 100%;
         font-size: 12px;
-        margin: 0px;
-        padding: 0px;
     }
     .primera .boton{
         width: 0.625em;

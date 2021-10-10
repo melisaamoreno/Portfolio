@@ -473,7 +473,7 @@ footer{
 }
 @media (max-width: 425px){
     .primera{
-        width: 100%;
+        max-width: 100%;
         font-size: 12px;
         margin: 0px;
         padding: 23px;
@@ -483,18 +483,18 @@ footer{
         padding: 0.3125em 0.625em;
     }
     .segunda{
-        width: 100%;
+        max-width: 100%;
         font-size: 0.75em;
     }
     .tercera{
-       width: 52% ;
+       max-width: 100% ;
     }
     .cuarta{
         font-size: 0.75em;
-        width: 100%;
+        max-width: 100%;
     }
     .contactme{
-        width: 92%;
+        max-width: 100%;
     }
     .writeme .name{
         display: flex;
@@ -513,7 +513,7 @@ footer{
         flex-direction: column;
     }
     footer{
-        width: 97%;
+        max-width: 100%;
     }
     footer .menu{
         visibility: hidden;
